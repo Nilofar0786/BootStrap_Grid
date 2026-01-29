@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livo Furniture Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  
+    <style>
+        .grid-card {
+            border-radius: 15px;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: none;
+            position: relative;
+        }
+        .card1 
+        { min-height: 120px; 
+        }
+        .card2 
+        { min-height: 150px; 
+        }
+        .card-s {
+             min-height: 10px;
+             }
+        .card-2 { 
+            font-size: 0.85rem; 
+            padding: 10px; 
+            background: white; 
+        }
+        .card-3{
+            min-height: 10px;
+        }
+         .card-img-overlay {
+            display: 
+            flex; flex-direction: column;
+             justify-content: flex-end;
+         }
+    </style>
+</head>
+<body>
+ <!-- <body style="background-image: linear-gradient(rgba(6, 192, 230, 0.459),rgb(95, 99, 98));background-size: cover; 
+            background-position: center;height: 100vh;"> 
+ <body style="background-color: rgb(98, 228, 228);">
+<!- Navbar -->
+<nav class="navbar navbar-expand-lg navbar py-2 px-3 " style="background-color: rgb(110, 156, 183);">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bolder " href="#">LIVO</a>
+        <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active text-danger" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Collection</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="d-flex align-items-center gap-1">
+      <div class="d-flex justify-content-end align-items-center gap-3">
+  <!--  Icon -->
+  <i class="bi bi-heart-fill text-light bg-dark rounded-circle text-center justify-content-center p-1 " style="width: 32px;height: 32px;"></i>
+<div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center
+            position-relative"
+     style="width:30px; height:30px;">
+  
+  <i class="bi bi-bag-fill fs-6"></i>
+
+  <span class="position-absolute top-0 end-0 translate-middle-y
+               badge rounded-pill bg-danger">
+    3
+  </span>
+</div>
+
+  <!-- Login Button -->
+  <button class="btn btn-sm btn-danger shadow-lg px-4 me-0">Login</button>
+    </div>
+</nav>
+
+<div class="container-fluid p-2 h-50 w-75">
+
+    <div class="row g-1">
+        <div class="col-md-4 ">
+            <div class="grid-card bg-light p-4  card-3 rounded-1"
+             style="height: 240px; background: url('https://i.pinimg.com/1200x/aa/65/c5/aa65c5877c2a8b6119b8bdcbc965b580.jpg') center/cover;">
+                <span class="text-white fs-6 fw-bold ">Crafted Comfort for Modern Living</span>
+<span class=" fw-light text-white ms-5 " style="font-size: 9px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                 <button class="btn btn-dark w-50 mt-4 rounded shadow-lg  text-center border 
+                text-light bg-danger text-white fw-bold " style="margin-left: 69px;">Shop Now</button>
+                <!-- <div class="mt-auto d-flex  text-muted ">
+                    <span class="text-white " style="margin-left: 12px;"> 500+<br>
+                        <small class="text-white" style="margin-left: -49px; font-size: 11px;">Tranding Designs</small></span>
+                    <span class="text-white"  style="margin-left: 42px;">1000+ <br>
+                        <small class="text-white" >Happy Homes</small></span>
+                    <span class="text-white"  style="margin-left: 42px;">50+ <br>
+                        <small class="text-white" style="margin-left: -9px;">Happy Homes</small></span>
+  
+                </div> -->
+                  <div class="row text-center mt-4">
+        <div class="col-4">
+          <h5 class="fw-bold text-white ">500+</h5>
+          <small class="text-white"style="font: 10px sans-serif;">Tranding Design</small>
+        </div>
+        <div class="col-4">
+          <h5 class="fw-bold text-white">1000+</h5>
+          <small class="text-white"style="font: 10px sans-serif;">Happy Homes</small>
+        </div>
+        <div class="col-4">
+          <h5 class="fw-bold text-white">50+</h5>
+          <small class="text-white"style="font: 10px sans-serif;">Happy Homes</small>
+        </div>
+      </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="grid-card bg-light p-4   rounded-1  " 
+            style="height: 240px; background: url('https://i.pinimg.com/1200x/81/50/3c/81503c638bc2aecd2580b0782d52f20c.jpg') center/cover;">
+                <span class="  text-dark fw-bold">MEGA SALE UP TO 70%</span><br>
+                <div class="" style="margin-top: 40px;margin-left: -14px;">
+                    <span class="mt-6 fw-bolder fs-5 ">Find Your Signature Seat</span>
+                    <span class="fw-light "style="font-size 12px;">Save up to 20% on all dining</span><br>
+                        <span class="fw-light "style="font-size 12px;">sets this weekend.....</span><br>
+                       <button class="btn btn-dark w-50 rounded-pill shadow-lg  text-center  
+                  text-danger fw-bold " >Shop the sale<i class="fa-solid fa-arrow-right text-danger ms-2 "></i>
+                </button>
+              </div>
+             </div>
+            </div>
+        
+
+
+      <!-- Right: Stacked Cards -->
+        <div class="col-md-4">
+            <div class="row g-1">
+                <div class="col-12 ">
+                    <div class="grid-card bg-light p-3 card-s  rounded-1" 
+                    style= "height: 120px; background: url('https://i.pinimg.com/736x/6c/a4/56/6ca4564a57fb43f0ca9adde862b4fa36.jpg')center/cover;">
+                    <div class="card-img-overlay ms-2 "style=""> 
+                    <span class="" style="">Scandinavian Lounge Chair</span>
+                        <span class="fw-bold">$299.00</span></div>
+                <div class="d-flex justify-content-end" style="margin-top:75px">
+                <button class="bg-danger border border-danger text-white justify-content-end g-1 me-0 rounded-circle d-flex align-items-center justify-content-center"
+               style="width: 22px; height: 22px; font-size: 14px;">
+               <i class="bi bi-plus"></i></button>
+               </div>
+               </div>
+                </div>
+                <div class="col-12">
+                    <div class="grid-card bg-light p-2 card-s  rounded-1"
+                    style="height: 120px; background: url('https://i.pinimg.com/1200x/27/ad/50/27ad50dd576688fc3317035aa1038138.jpg')center/cover;">
+                       <div class="card-img-overlay ms-2">
+                    <span class="">3-Seater Sofa-Cloud Grey</span>
+                        <span class="fw-bold">$899.00</span>
+                        </div>
+                         <div class="d-flex justify-content-end" style="margin-top:80px;">
+                <button class="bg-danger border border-danger text-white justify-content-end g-1 me-0 rounded-circle d-flex align-items-center justify-content-center"
+               style="width: 22px; height: 22px; font-size: 14px;">
+               <i class="bi bi-plus"></i></button>
+               </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Middle Row -->
+<!-- style="background: url('https://i.pinimg.com/736x/65/1d/53/651d538f016a6a86a985c5d18df64b6e.jpg');" -->
+
+    <div class="row g-1 mt-1 ">
+        <div class="col-md-5 h-25 ">
+              <div class="grid-card bg-light  p-4 card2  rounded-1"
+                    style="background: url('https://i.pinimg.com/1200x/2c/52/90/2c529091f049813633da7f6e90f1241f.jpg') center/cover;">
+                  
+            <!-- <div class="grid-card bg-light d-flex align-items-center justify-content-center card1 h-25" 
+            style="background-image: linear-gradient(rgb(233, 223, 232),rgb(61, 60, 65)); ">-->
+            <div class="d-flex justify-content-center text-center g-1 ">
+                <!-- <img src="C:\Bootstrap\Bootstrap_Website_pic\livoicon.png "class="" style="width:120px;  height: 80px;"> -->
+                <img src="https://i.pinimg.com/736x/e6/bb/1a/e6bb1ad0c534b2b34eb5bcc977504140.jpg "class=" " style="width:80px;  height: 50px;"> 
+                 <h2 class="fw-bold text-center">LIVO</h2></div>
+                <span class="text-center">LIVING ELEVATED</span>
+            </div>
+        </div>
+        <div class="col-md-7 h-25">    
+            <div class="grid-card  p-2 d-flex align-items-center text-center h-25  rounded-1"
+          style="background-color:rgb(72, 150, 160)">
+            <span class="fs-5 text-center text-white fw-bold">Make Your Room Comfortable &</span>
+                 <span class="text-center fs-5 text-white fw-bold "> Useful</span>
+                <span class=" px-1 text-white" style="font-size: 8px;">With a focus on design and functionality, PunPun offers comfort and </span>
+                   <span class="text-center text-white" style="font-size: 8px;"> practicality.</span>
+                <input type="text" class="form-control search-input w-75 h-25 mt-1 "
+                 placeholder="Search" style="border-radius: 50px;  border: none; padding: 10px 20px;">
+            </div>
+        </div>
+    </div>
+    <!-- 3rd row  -->
+
+    <div class="row g-1 mt-1">
+        <div class="col-md-3 h-25">
+           <div class="grid-card bg-light p-2 card1 h-25  rounded-1"
+             style="background: url('https://i.pinimg.com/736x/a1/4a/43/a14a43b9a0dd9e02655b8fcd24638016.jpg') center/cover;">     
+               <div class="d-flex align-items-center">
+  <img src="https://i.pinimg.com/736x/3d/71/5e/3d715e8d48c47599b0a8515218ff05a3.jpg"
+       class="rounded-circle"
+       style="width:40px; height:40px; object-fit:cover;">
+  <!-- <span class="ms-2 fw-semibold">Profile</span> -->
+                <span><strong>Angelia Park</strong></span></div> 
+                    <span class="ms-5 fs-6">⭐ 4.7</span>
+                <p class="text-muted text-center "style="font: 9px sans-serif;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span class=" text-end"style="font: 10px sans-serif;">June 11,2025| 11.12 PM</span>
+            </div>
+        </div>
+        <!-- srart -->
+        <div class="col-md-3 h-25">
+           <div class="grid-card bg-light p-2 card1 h-25  rounded-1"
+             style="background: url('https://i.pinimg.com/1200x/2f/d3/54/2fd35476c5f060b0dc2919c2beb4489c.jpg') center/cover;">     
+               <div class="d-flex align-items-center">
+  <img src="https://i.pinimg.com/736x/03/00/f9/0300f9c26cbbf32202a0106c92a17935.jpg"
+       class="rounded-circle"
+       style="width:40px; height:40px; object-fit:cover;">
+  <!-- <span class="ms-2 fw-semibold">Profile</span> -->
+                <span><strong>Angelia Park</strong></span></div> 
+                    <span class="ms-5 fs-6">⭐ 4.7</span>
+                <p class="text-muted text-center "style="font: 9px sans-serif;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span class=" text-end"style="font: 10px sans-serif;">June 11,2025| 11.12 PM</span>
+            </div>
+        </div>
+        <!-- end -->
+       
+        <div class="col-md-3">
+       <div class="grid-card bg-light p-4 card1 h-25  rounded-1 "
+             style="background: url('https://i.pinimg.com/1200x/7d/e6/7a/7de67a4535c1454b2882f1f9ed831a54.jpg') center/cover;"> 
+             <div class="d-flex align-items-center gap-2 " style="margin-left: 80px;">
+      <div class="bg-dark text-danger rounded-circle d-flex align-items-center justify-content-center"
+       style="width:36px; height:36px;">
+     <i class="bi bi-geo-alt-fill"></i>
+     </div>
+    </div>
+    
+   <span class="text-dark fw-bold text-center ">Find Your Nearest</span> 
+  <span class=" text-center text-dark fw-bold">Store</span>
+</div>
+ </div>
+        <div class="col-md-3">
+            <div class="grid-card bg-light p-1 card1 h-25  rounded-1 "
+             style="background: url('https://i.pinimg.com/736x/7f/80/61/7f806176869f9cd431507895f648391b.jpg') center/cover;"> 
+             <span class="fs-6 ms-2">Let's Stay connected</span>    
+                <span class="small text-end me-2 justify-content-end">Let's stay connected</span>
+                <span class=" small text-end me-2 justify-content-end">(91) 910000000</span>
+                <span class="small text-end me-2 justify-content-end">livo@gmail.com</span>
+                <div class="d-flex gap-2 ms-5"style="">
+  <div class=" text-dark rounded-circle d-flex align-items-center justify-content-center"
+       style="width:28px; height:28px;">
+    <i class="bi bi-instagram"></i>
+  </div>
+
+  <div class="text-dark rounded-circle d-flex align-items-center justify-content-center"
+       style="width:28px; height:28px;">
+    <i class="bi bi-facebook"></i>
+  </div>
+
+  <div class=" text-dark rounded-circle d-flex align-items-center justify-content-center"
+       style="width:28px; height:28px;">
+    <i class="bi bi-x-lg"></i>
+  </div>
+
+  <div class="text-dark rounded-circle d-flex align-items-center justify-content-center"
+       style="width:28px; height:28px;">
+    <i class="bi bi-amazon"></i>
+  </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
